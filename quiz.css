@@ -1,0 +1,132 @@
+body {
+	background: #FF416C;
+	background: -webkit-linear-gradient(to right,  blue ,  red);
+	background: linear-gradient(to right, blue  ,  red);
+	background-repeat: no-repeat;
+	background-size: cover;
+height: 100vh;
+margin: 0;
+background-attachment: fixed;
+background-position: center;
+}
+
+
+.scr{
+	background-color: lightblue;
+	padding: 25px;
+	font-size: 30px ;
+	font-family: 'Josefin Sans', sans-serif;
+	width: 60px;
+	height: 30px;
+	color: #000000;
+	border-radius: 25px;
+	float: right;
+	margin: 40px;
+}
+
+.cntr{
+	background-color: lightblue;
+	padding: 25px;
+	width: 100px;
+	height: 30px;
+	font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #000000;
+	border-radius: 25px;
+	margin: 40px;
+	float: left;
+}
+
+#headPhone {
+	
+	height: 380px;
+	display: block;
+	margin-top: 80px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 30%;
+}
+
+.audioContainer {
+  
+  position: relative;
+  border: none;
+}
+
+#musicToggler {
+  margin: 0;
+  margin-top: 230px;
+  margin-left: 1.8%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width:80px;
+  height: 70px;
+  border: 5px solid #87CEFA;
+  outline: none;
+  border-radius: 35px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.answersContainer {
+  margin: 20px auto;
+  width: 40%;
+}
+
+.option{
+  background: azure;
+  border-radius: 10px;
+  padding: 10px;
+  height: 45px;
+  opacity: 0.6;
+  margin: 20px;
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+#finish{
+	text-align: center;
+	width: 50%
+	background-color: azure;
+	opacity: 0.5;
+	font-size: 80px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 40px;
+	margin-top: 120px;
+}
+
+#finalScore{
+	text-align: center;
+	width: 50%
+	background-color: azure;
+	opacity: 0.5;
+	font-size: 60px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#note2 {
+	width: 100px;
+	height: 120px;
+}
+#note2 {
+	width: 80px;
+	height: 80px;
+}
+
+#note6 {
+	width: 100px;
+	height: 120px;
+}
+
+.imageHolder{
+text-align:center;
+}
+
+.music{
+display:inline-block;
+}
